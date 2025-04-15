@@ -16,7 +16,7 @@
          <bottom>
             <BorderPane prefHeight="73.0" prefWidth="600.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER">
                <top>
-                  <Button id="closeButton" mnemonicParsing="false" onAction="#closeButton" prefHeight="34.0" prefWidth="104.0" style="-fx-background-color: lightblue;" text="Close" BorderPane.alignment="CENTER" />
+                  <Button id="closeButton" mnemonicParsing="false" prefHeight="34.0" prefWidth="104.0" style="-fx-background-color: lightblue;" text="Close" BorderPane.alignment="CENTER" />
                </top></BorderPane>
          </bottom>
          <right>
