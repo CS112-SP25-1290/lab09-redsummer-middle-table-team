@@ -18,7 +18,7 @@
                <top>
                   <Button id="closeButton" mnemonicParsing="false" prefHeight="34.0" prefWidth="104.0" style="-fx-background-color: lightblue;" text="Close" BorderPane.alignment="CENTER" />
                </top></BorderPane>
-         </bottom>
+         </bottom> W
          <right>
             <BorderPane prefHeight="392.0" prefWidth="389.0" BorderPane.alignment="CENTER">
                <top>
