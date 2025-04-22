@@ -11,7 +11,7 @@
             <Image url="@../../images/Red-Summer.jpg" />
          </image>
       </ImageView>
-      <Button id="cityStateButton" layoutX="31.0" layoutY="141.0" mnemonicParsing="false" text="San Francisco" />
-      <Button id="otherCityStateButton" layoutX="119.0" layoutY="243.0" mnemonicParsing="false" text="Bisbee" />
+      <Button id="sanFranciscoCaliforniaButton" layoutX="31.0" layoutY="141.0" mnemonicParsing="false" text="San Francisco" />
+      <Button id="bisbeeArizonaButton" layoutX="119.0" layoutY="243.0" mnemonicParsing="false" text="Bisbee" />
    </children>
 </Pane>
