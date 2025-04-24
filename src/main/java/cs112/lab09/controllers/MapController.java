@@ -30,8 +30,9 @@ public class MapController {
     }
 
     private void openCityPopup(Constants.Event event) throws IOException {
+        Constants.selectedCity = event;
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/cs112/lab09/" + Constants.CITY_VIEW_RESOURCE));
-        Scene cityScene = new Scene(loader.load(), 500, 400);
+        Scene cityScene = new Scene(loader.load(), 600, 500);
         Stage popupStage = new Stage();
         popupStage.setScene(cityScene);
         popupStage.setTitle(Constants.CITY_VIEW_TITLE);

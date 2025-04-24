@@ -1,6 +1,7 @@
 package cs112.lab09;
 
 public class Constants {
+    public static Event selectedCity;
     public static final String MAIN_DESCRIPTION = "In 1919, Red Summer was a pattern of white-on-black violence that occurred in more than three dozen cities across the United States and in one rural county in Arkansas. The term 'Red Summer' was coined by civil rights activist and author James Weldon Johnson, who had been employed as a field secretary by the National Association for the Advancement of Colored People (NAACP) since 1916. It was branded 'Red Summer' because of the bloodshed that occurred during the worst white-on-black violence in U.S. history.";
     public static final String MAIN_TITLE = "Interactive Revisionist History Map";
     public static final String MAIN_SUBTITLE = "Red Summer Edition";

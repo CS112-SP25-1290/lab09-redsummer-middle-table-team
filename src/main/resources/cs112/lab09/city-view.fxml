@@ -10,35 +10,35 @@
          <left>
             <BorderPane prefHeight="392.0" prefWidth="213.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER">
                <center>
-                  <ImageView id="eventImageView" fitHeight="137.0" fitWidth="189.0" pickOnBounds="true" preserveRatio="true" style="-fx-border-color: black;" BorderPane.alignment="CENTER" />
+                  <ImageView fx:id="eventImageView" fitHeight="137.0" fitWidth="189.0" pickOnBounds="true" preserveRatio="true" style="-fx-border-color: black;" BorderPane.alignment="CENTER" />
                </center></BorderPane>
          </left>
          <bottom>
             <BorderPane prefHeight="73.0" prefWidth="600.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER">
                <top>
-                  <Button id="closeButton" mnemonicParsing="false" prefHeight="34.0" prefWidth="104.0" style="-fx-background-color: lightblue;" text="Close" BorderPane.alignment="CENTER" />
+                  <Button fx:id="closeButton" mnemonicParsing="false" prefHeight="34.0" prefWidth="104.0" style="-fx-background-color: lightblue;" text="Close" BorderPane.alignment="CENTER" />
                </top></BorderPane>
-         </bottom> W
+         </bottom>
          <right>
             <BorderPane prefHeight="392.0" prefWidth="389.0" BorderPane.alignment="CENTER">
                <top>
                   <VBox prefHeight="113.0" prefWidth="390.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER">
                      <children>
-                        <Label id="locationLabel" alignment="CENTER" prefHeight="42.0" prefWidth="411.0" style="-fx-border-color: black;" text="Location" />
-                        <Label id="dateLabel" alignment="CENTER" prefHeight="53.0" prefWidth="388.0" style="-fx-border-color: black;" text="Date" />
+                        <Label fx:id="locationLabel" alignment="CENTER" prefHeight="42.0" prefWidth="411.0" style="-fx-border-color: black;" text="Location" />
+                        <Label fx:id="dateLabel" alignment="CENTER" prefHeight="53.0" prefWidth="388.0" style="-fx-border-color: black;" text="Date" />
                      </children></VBox>
                </top>
                <bottom>
                   <VBox prefHeight="90.0" prefWidth="390.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER">
                      <children>
-                        <Hyperlink id="citationHyperlink" alignment="CENTER" prefHeight="96.0" prefWidth="386.0" style="-fx-border-color: black;" text="Hyperlink" />
+                        <Hyperlink fx:id="citationHyperlink" alignment="CENTER" prefHeight="96.0" prefWidth="386.0" style="-fx-border-color: black;" text="Hyperlink" />
                      </children></VBox>
                </bottom>
                <center>
                   <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: black;" BorderPane.alignment="CENTER">
                      <children>
-                        <Label id="descriptionLabel" alignment="CENTER" prefHeight="50.0" prefWidth="390.0" style="-fx-border-color: black;" text="Description" />
-                        <Label id="revisedDescriptionLabel" alignment="CENTER" prefHeight="140.0" prefWidth="389.0" style="-fx-border-color: black;" text="Revised Description" />
+                        <Label fx:id="descriptionLabel" alignment="CENTER" prefHeight="50.0" prefWidth="390.0" style="-fx-border-color: black;" text="Description" />
+                        <Label fx:id="revisedDescriptionLabel" alignment="CENTER" prefHeight="140.0" prefWidth="389.0" style="-fx-border-color: black;" text="Revised Description" />
                      </children></VBox>
                </center></BorderPane>
          </right></BorderPane>
